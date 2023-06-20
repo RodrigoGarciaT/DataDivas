@@ -1,6 +1,6 @@
 # Sergio
 
 Temas en el github
-- Criba
+- Criba / Sieve of Eratosthenes
 - Fast Pow
 - GCD / LCM
