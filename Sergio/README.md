@@ -1,5 +1,6 @@
 # Sergio
 
 Temas en el github
-- GCD / LCM
+- Criba
 - Fast Pow
+- GCD / LCM
