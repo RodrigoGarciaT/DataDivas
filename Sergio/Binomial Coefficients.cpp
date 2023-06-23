@@ -2,7 +2,6 @@
 using namespace std;
 
 typedef long long ll;
-typedef long double ld;
 
 #define optimiza_io \
     cin.tie(0);     \
@@ -17,7 +16,7 @@ ll inv(ll i) {
   return i <= 1 ? i : m - (long long)(m/i) * inv(m % i) % m;
 }
 
-long long binomial_coefficient(ll n, ll k) {
+ll binomial_coefficient(ll n, ll k) {
     return factorial[n] * inv(factorial[k] * factorial[n - k] % m) % m;
 }
 
