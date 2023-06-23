@@ -13,7 +13,7 @@ const ll m = 1e9+7;
 ll factorial[MAXN+1];
 
 ll inv(ll i) {
-  return i <= 1 ? i : m - (long long)(m/i) * inv(m % i) % m;
+  return i <= 1 ? i : m - (ll)(m/i) * inv(m % i) % m;
 }
 
 ll binomial_coefficient(ll n, ll k) {
