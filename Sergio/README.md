@@ -6,3 +6,4 @@ Temas en el github
 - Fast Pow
 - GCD / LCM
 - Modular inverse / modular division
+- Segment tree
